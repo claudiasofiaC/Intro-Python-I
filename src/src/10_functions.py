@@ -6,18 +6,16 @@ def is_even(x):
     else:
         return False
 
-
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
-def even_odd(x):
-    if is_even(x) == True:
-        print("EVEN")
+def e_or_o(x):
+    if is_even(x) == True
+        print("Even!")
     else:
-        print("ODD")
-        
-even_odd(num)
+        print("Odd!")
 
+e_or_o(num)            
